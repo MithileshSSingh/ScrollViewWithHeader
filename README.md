@@ -68,21 +68,22 @@ XML implementation.<br>
 <br>
 
 Java Code implementation.
-	
-		scrollView = (ScrollViewWithHeader) findViewById(R.id.scroll_view);
-		tvHeader = (TextView) findViewById(R.id.tv_header);
-		tvChild1 = (TextView) findViewById(R.id.child1);
-		tvChild2 = (TextView) findViewById(R.id.child2);
-		tvChild3 = (TextView) findViewById(R.id.child3);
-		tvChild4 = (TextView) findViewById(R.id.child4);
+
+````javascript	
+	scrollView = (ScrollViewWithHeader) findViewById(R.id.scroll_view);
+	tvHeader = (TextView) findViewById(R.id.tv_header);
+	tvChild1 = (TextView) findViewById(R.id.child1);
+	tvChild2 = (TextView) findViewById(R.id.child2);
+	tvChild3 = (TextView) findViewById(R.id.child3);
+	tvChild4 = (TextView) findViewById(R.id.child4);
 		
-		scrollView.addHeader(tvHeader);
-		scrollView.addChildHeaders(tvChild1);
-		scrollView.addChildHeaders(tvChild2);
-		scrollView.addChildHeaders(tvChild3);
-		scrollView.addChildHeaders(tvChild4);
-		scrollView.build();
-	
+	scrollView.addHeader(tvHeader);
+	scrollView.addChildHeaders(tvChild1);
+	scrollView.addChildHeaders(tvChild2);
+	scrollView.addChildHeaders(tvChild3);
+	scrollView.addChildHeaders(tvChild4);
+	scrollView.build();
+````
 
 
 
